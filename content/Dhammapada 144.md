@@ -3,14 +3,13 @@
 ![[_assets/2025-02-02_15-14-40-DH.txt]]
 
 ```
-Como um cavalo...
+Como um cavalo puro-sangue tocado pelo chicote, seja vigoroso e determinado. Então você será capaz de se livrar desse grande sofrimento por meio da fé, moralidade, comportamento energético, quietude da mente e reflexão sobre o ensinamento, depois que você se tornar cheio de sabedoria, bons hábitos e recolhimento. 144
+
+  — Dhammapada
 ```
 
 > [!quote]
 >
-> Assim como um cavalo...
-> ... bons hábitos e memória...
-> 
+> Como um cavalo puro-sangue tocado pelo chicote, seja vigoroso e determinado. Então você será capaz de se livrar desse grande sofrimento por meio da fé, moralidade, comportamento energético, quietude da mente e reflexão sobre o ensinamento, depois que você se tornar cheio de sabedoria, bons hábitos e recolhimento. 144
+>  
 > -- Dhammapada
-
-![[index]]
