@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     baseUrl: "kassius.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: false,
+    generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -66,7 +66,7 @@ const config: QuartzConfig = {
           dark: "github-dark",
         },
         keepBackground: false,
-        grid: true,
+        grid: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
