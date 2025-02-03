@@ -4,8 +4,11 @@
 
 > [!cite] Dhammapada 56
 > O perfume de tagara e sândalo tem pouco poder, enquanto
+> 
 a fragrância suprema, a dos virtuosos, alcança até os
+
 devas. 56
+
    — **Dhammapada**
 
 ```text title="Dhammapada 56"
