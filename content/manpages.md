@@ -1,6 +1,9 @@
 [fd(1)](https://man.archlinux.org/man/extra/fd/fd.1.en)
+
 [rg(1)](https://man.archlinux.org/man/extra/ripgrep/rg.1.en)
+
 [sway(5)](https://man.archlinux.org/man/sway.5)
+
 [sway-ipc(7)](https://man.archlinux.org/man/sway-ipc.7.en)
 
 > [!info] $ man man
