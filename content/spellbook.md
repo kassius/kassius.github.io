@@ -9,3 +9,8 @@
     vim /usr/include/linux/input-event-codes.h
     ```
 
+## Get full file path
+
+```
+readlink -f file.txt
+```
