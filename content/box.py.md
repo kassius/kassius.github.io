@@ -1,11 +1,4 @@
-Esse script cria uma caixa com caracteres unicode para o texto recebido via *stdin*.
-
-> [!info] Exemplo 
->![[box-py.png]]
-
-## O script
-
-```python title="box.py"
+```python
 #!/usr/bin/env python
 
 import sys
