@@ -18,11 +18,11 @@ HelloWorld
 | ---- | ----------- |
 | 200 | Request fulfilled, document follows |
 
-```
-/display-dhammapada
-```
 
-#### GET
+### /display-dhammapada
+
+> GET
+
 ##### Summary:
 
 DisplayDhammapada
@@ -66,7 +66,8 @@ TextToImg
 
 ### `/webhook`
 
-#### POST
+> POST
+
 ##### Summary:
 
 GithubWebhookNotify
