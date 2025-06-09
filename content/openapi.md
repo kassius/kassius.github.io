@@ -58,12 +58,12 @@ TextToImg
 
 ##### Responses
 
-| Code | Description |
-| ---- | ----------- |
-| 200 | Request fulfilled, document follows |
-| 400 | Bad request syntax or unsupported method |
+| Code | Description                              |
+| ---- | ---------------------------------------- |
+| 200  | Request fulfilled, document follows      |
+| 400  | Bad request syntax or unsupported method |
 
-```
+### ```
 /webhook
 ```
 
