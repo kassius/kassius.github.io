@@ -63,7 +63,7 @@ TextToImg
 | 200  | Request fulfilled, document follows      |
 | 400  | Bad request syntax or unsupported method |
 
-### `/webhook`
+### > `/webhook`
 
 #### POST
 ##### Summary:
@@ -78,4 +78,7 @@ GithubWebhookNotify
 | 400 | Bad request syntax or unsupported method |
 
 > /testendpoint
+
+> `/codeendpoint`
+
 
