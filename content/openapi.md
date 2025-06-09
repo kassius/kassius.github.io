@@ -45,7 +45,8 @@ DisplayDhammapada
 /img
 ```
 
-#### GET
+> GET
+
 ##### Summary:
 
 TextToImg
@@ -63,7 +64,7 @@ TextToImg
 | 200  | Request fulfilled, document follows      |
 | 400  | Bad request syntax or unsupported method |
 
-### > `/webhook`
+### `/webhook`
 
 #### POST
 ##### Summary:
