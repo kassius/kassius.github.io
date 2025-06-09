@@ -66,7 +66,7 @@ const config: QuartzConfig = {
           dark: "github-dark",
         },
         keepBackground: false,
-        grid: false,
+        grid: true,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
