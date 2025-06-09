@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"738251fe4b1a847b","x":-140,"y":-324,"width":250,"height":60,"type":"text","text":"this is a test"},
+		{"id":"9d7a908335e0fd4f","x":-36,"y":-22,"width":250,"height":60,"color":"2","type":"text","text":"ok\n  test"},
+		{"id":"bf063d7eb77ac5fc","x":-92,"y":219,"width":400,"height":400,"type":"link","url":"https://kassius.org"}
+	],
+	"edges":[]
+}
