@@ -1,9 +1,11 @@
-https://swagger-markdown-ui.netlify.app/
+generated with https://swagger-markdown-ui.netlify.app/
 
 # Yoke API
 ## Version: 0.0.1
 
-### /
+```
+/
+```
 
 #### GET
 ##### Summary:
@@ -16,7 +18,9 @@ HelloWorld
 | ---- | ----------- |
 | 200 | Request fulfilled, document follows |
 
-### /display-dhammapada
+```
+/display-dhammapada
+```
 
 #### GET
 ##### Summary:
@@ -37,7 +41,9 @@ DisplayDhammapada
 | 200 | Request fulfilled, document follows |
 | 400 | Bad request syntax or unsupported method |
 
-### /img
+```
+/img
+```
 
 #### GET
 ##### Summary:
@@ -57,7 +63,9 @@ TextToImg
 | 200 | Request fulfilled, document follows |
 | 400 | Bad request syntax or unsupported method |
 
-### /webhook
+```
+/webhook
+```
 
 #### POST
 ##### Summary:
