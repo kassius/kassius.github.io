@@ -71,6 +71,7 @@ npm install --save --os=linux --cpu=aarch64 --libc=bionic node-addon-api node-gy
 ```sh
 npm --os=linux --cpu=aarch64 --libc=bionic install
 ```
+[Source](https://quartz.jzhao.xyz/#-get-started)
 
 ## checking installed `sharp` version
 
