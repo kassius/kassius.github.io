@@ -1,4 +1,12 @@
-(possibly incomplete)
+==possibly and probably incomplete==
+
+I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually when updating quartz from Termux; here I'm posting some annotations for myself, so I don't forget what I need to do tp build sharp in future updates – like happened to me actually.
+
+## building sharp
+
+* [Cross-platform](https://sharp.pixelplumbing.com/install/#cross-platform)
+* [Custom libvips](https://sharp.pixelplumbing.com/install/#custom-libvips)
+* [Building from source](https://sharp.pixelplumbing.com/install/#building-from-source)
 
 ## termux packages
 
