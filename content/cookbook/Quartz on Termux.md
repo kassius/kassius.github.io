@@ -79,8 +79,9 @@ npm --os=linux --cpu=aarch64 --libc=bionic install
 npm ls sharp
 ```
 
-## updating quartz
+## upgrading quartz
 
 ```sh
 npx --os=linux --cpu=aarch64 --libc=bionic quartz update
 ```
+[Source](https://quartz.jzhao.xyz/upgrading)
