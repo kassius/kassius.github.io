@@ -1,6 +1,7 @@
-==possibly and probably incomplete==
+> [!warning]
+> This article is a personal annotation and is possibly and probably incomplete
 
-I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually when updating quartz from Termux; here I'm posting some annotations for myself, so I don't forget what I need to do to build it in future updates – like happened to me actually.
+I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually when updating quartz from Termux; here I'm posting some annotations for myself, so I don't forget what I need to do to build it in future updates like happened to me these days.
 
 ## building sharp
 
@@ -19,9 +20,9 @@ I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually wh
 
 ### npm-install
 
-* [cpu](https://docs.npmjs.com/cli/v9/commands/npm-install#cpu)
-* [os](https://docs.npmjs.com/cli/v9/commands/npm-install#os)
-* ~~libc~~
+* [--cpu](https://docs.npmjs.com/cli/v9/commands/npm-install#cpu)
+* [--os](https://docs.npmjs.com/cli/v9/commands/npm-install#os)
+* ~~--libc~~
 
 ### package.json
 
