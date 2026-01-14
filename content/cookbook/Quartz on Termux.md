@@ -1,6 +1,6 @@
 ==possibly and probably incomplete==
 
-I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually when updating quartz from Termux; here I'm posting some annotations for myself, so I don't forget what I need to do tp build sharp in future updates – like happened to me actually.
+I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually when updating quartz from Termux; here I'm posting some annotations for myself, so I don't forget what I need to do to build it in future updates – like happened to me actually.
 
 ## building sharp
 
@@ -14,6 +14,20 @@ I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually wh
 - [node-addon-api](https://www.npmjs.com/package/node-addon-api) version 7+
 - [node-gyp](https://github.com/nodejs/node-gyp#installation) version 9+ and its dependencies
 [Source](https://sharp.pixelplumbing.com/install/#building-from-source)
+
+## extra documentation
+
+### npm-install
+
+* [cpu](https://docs.npmjs.com/cli/v9/commands/npm-install#cpu)
+* [os](https://docs.npmjs.com/cli/v9/commands/npm-install#os)
+* ~~libc~~
+
+### package.json
+
+* [cpu](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#cpu)
+* [libc](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#libc)
+* [os](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#os)
 
 ## termux packages
 
@@ -49,8 +63,20 @@ dpkg --print-architecture
 ```
 [Source](https://www.reddit.com/r/termux/comments/uxb312/comment/i9ww65g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
-## npm installing / building `sharp`
+## npm installing quartz / building `sharp`
 
 ```sh
 npm --os=linux --cpu=aarch64 --libc=bionic install
+```
+
+## checking installed sharp version
+
+```sh
+npm ls sharp
+```
+
+## updating quartz
+
+```sh
+npx --os=linux --cpu=aarch64 --libc=bionic quartz update
 ```
