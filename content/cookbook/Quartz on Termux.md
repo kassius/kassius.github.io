@@ -8,6 +8,13 @@ I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually wh
 * [Custom libvips](https://sharp.pixelplumbing.com/install/#custom-libvips)
 * [Building from source](https://sharp.pixelplumbing.com/install/#building-from-source)
 
+## sharp dependencies
+
+- C++17 compiler
+- [node-addon-api](https://www.npmjs.com/package/node-addon-api) version 7+
+- [node-gyp](https://github.com/nodejs/node-gyp#installation) version 9+ and its dependencies
+[Source](https://sharp.pixelplumbing.com/install/#building-from-source)
+
 ## termux packages
 
 ```sh
@@ -22,12 +29,18 @@ pkg install git build-essential
 
 add here the compiling pkgs etc
 
-## fixing node-gyp
+## fixing node-gyp (sharp dependency)
 
 ```sh
 mkdir ~/.gyp && echo "{'variables': {'android_ndk_path': ''}}" > ~/.gyp/include.gypi
 ```
 [Source](https://www.reddit.com/r/termux/comments/1ewjj35/comment/lj11tnj/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+## installing sharp build dependencies
+
+```sh
+npm install --save --os=linux --cpu=aarch64 --libc=bionic node-addon-api node-gyp
+```
 
 ## finding the arch
 
