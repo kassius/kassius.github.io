@@ -9,7 +9,7 @@ pkg install nodejs libvips
 ### also termux packages
 
 ```sh
-pkg install git
+pkg install git build-essential
 ```
 
 add here the compiling pkgs etc
@@ -19,6 +19,7 @@ add here the compiling pkgs etc
 ```sh
 mkdir ~/.gyp && echo "{'variables': {'android_ndk_path': ''}}" > ~/.gyp/include.gypi
 ```
+[Source](https://www.reddit.com/r/termux/comments/1ewjj35/gyp_error/)
 
 ## finding the arch
 
