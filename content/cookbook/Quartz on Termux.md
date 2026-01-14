@@ -3,13 +3,13 @@
 
 I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually when updating quartz from Termux; here I'm posting some annotations for myself, so I don't forget what I need to do to build it in future updates like happened to me these days.
 
-## building sharp
+## building `sharp`
 
 * [Cross-platform](https://sharp.pixelplumbing.com/install/#cross-platform)
 * [Custom libvips](https://sharp.pixelplumbing.com/install/#custom-libvips)
 * [Building from source](https://sharp.pixelplumbing.com/install/#building-from-source)
 
-## sharp dependencies
+## `sharp` dependencies
 
 - C++17 compiler
 - [node-addon-api](https://www.npmjs.com/package/node-addon-api) version 7+
@@ -45,7 +45,7 @@ pkg install git build-essential
 
 add here the compiling pkgs etc
 
-## fixing node-gyp (sharp dependency)
+## fixing node-gyp (`sharp` dependency)
 
 ```sh
 mkdir ~/.gyp && echo "{'variables': {'android_ndk_path': ''}}" > ~/.gyp/include.gypi
@@ -59,11 +59,12 @@ dpkg --print-architecture
 ```
 [Source](https://www.reddit.com/r/termux/comments/uxb312/comment/i9ww65g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
-## installing sharp build dependencies
+## installing `sharp` build dependencies
 
 ```sh
 npm install --save --os=linux --cpu=aarch64 --libc=bionic node-addon-api node-gyp
 ```
+[Source](https://sharp.pixelplumbing.com/install/#building-from-source)
 
 ## npm installing quartz / building `sharp`
 
@@ -71,7 +72,7 @@ npm install --save --os=linux --cpu=aarch64 --libc=bionic node-addon-api node-gy
 npm --os=linux --cpu=aarch64 --libc=bionic install
 ```
 
-## checking installed sharp version
+## checking installed `sharp` version
 
 ```sh
 npm ls sharp
