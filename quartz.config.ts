@@ -18,7 +18,8 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "kassius.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    // defaultDateType: "created",
+    defaultDateType: "modified",
     generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
