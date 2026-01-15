@@ -21,4 +21,4 @@ function gimme() {
 dpkg --print-architecture
 ```
 
-[source](https://www.reddit.com/r/termux/comments/1ewjj35/comment/lj11tnj/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+[source](https://www.reddit.com/r/termux/comments/uxb312/comment/i9ww65g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
