@@ -101,3 +101,5 @@ if __name__ == "__main__":
     boxed = box_en(text)
     print(boxed)
 ```
+
+![[box-000.png]]
