@@ -7,11 +7,7 @@ import sys
 
 characters = {
     'horizontal': '\u2500',
-    'vertical': '\u2502',
-    'top_left': '\u250c',
-    'top_right': '\u2510',
-    'bottom_left': '\u2514',
-    'bottom_right': '\u2518'
+    'vertical': '\u2502'
 }
 
 flat_corners = {
