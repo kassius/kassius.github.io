@@ -15,7 +15,7 @@ I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually wh
 - [node-addon-api](https://www.npmjs.com/package/node-addon-api) version 7+
 - [node-gyp](https://github.com/nodejs/node-gyp#installation) version 9+ and its dependencies
 
-[Source](https://sharp.pixelplumbing.com/install/#building-from-source)
+[source](https://sharp.pixelplumbing.com/install/#building-from-source)
 
 ## extra documentation
 
@@ -50,28 +50,28 @@ add here the compiling pkgs etc
 ```sh
 mkdir ~/.gyp && echo "{'variables': {'android_ndk_path': ''}}" > ~/.gyp/include.gypi
 ```
-[Source](https://www.reddit.com/r/termux/comments/1ewjj35/comment/lj11tnj/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+[source](https://www.reddit.com/r/termux/comments/1ewjj35/comment/lj11tnj/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 ## finding the arch
 
 ```sh
 dpkg --print-architecture
 ```
-[Source](https://www.reddit.com/r/termux/comments/uxb312/comment/i9ww65g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+[source](https://www.reddit.com/r/termux/comments/uxb312/comment/i9ww65g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 ## installing `sharp` build dependencies
 
 ```sh
 npm install --save --os=linux --cpu=aarch64 --libc=bionic node-addon-api node-gyp
 ```
-[Source](https://sharp.pixelplumbing.com/install/#building-from-source)
+[source](https://sharp.pixelplumbing.com/install/#building-from-source)
 
 ## npm installing quartz / building `sharp`
 
 ```sh
 npm --os=linux --cpu=aarch64 --libc=bionic install
 ```
-[Source](https://quartz.jzhao.xyz/#-get-started)
+[source](https://quartz.jzhao.xyz/#-get-started)
 
 ## checking installed `sharp` version
 
@@ -84,4 +84,4 @@ npm ls sharp
 ```sh
 npx --os=linux --cpu=aarch64 --libc=bionic quartz update
 ```
-[Source](https://quartz.jzhao.xyz/upgrading)
+[source](https://quartz.jzhao.xyz/upgrading)
