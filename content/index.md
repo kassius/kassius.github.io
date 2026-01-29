@@ -2,7 +2,7 @@
 title: Kassius Yoke's Digital Garden
 ---
 
-<iframe src="https://yoke.kassius.org/dhammapada" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://yoke.kassius.org/dhammapada" style="width: 100%; height: 300px; border: 0;"></iframe>
 
 # W·I·P·
 
@@ -15,7 +15,7 @@ title: Kassius Yoke's Digital Garden
 [write file](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/7264095803b4bc0ea26e103ac994928400abe426/dhammapada-tweet-bot.py#L101), 
 [index source](https://github.com/kassius/kassius.github.io/blob/f0855fcf1b639fba69061ca628993fccc168515d/content/index.md?plain=1#L5)
 
-
+<!--
 | repo    | file | link    | what    |
 | --- | --- | --- | --- |
 | ingeniumstudio/api | routes.py|[endpoint](https://github.com/ingeniumstudio/api/blob/b86878aac990d6bc985dc09665716757394f93ea/routes.py#L61-L86) | |
@@ -25,7 +25,7 @@ title: Kassius Yoke's Digital Garden
 | ingeniumstudio/dhammapada-tweet-bot | dhammapada-tweet-bot.py | [format verses & verse numbers](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/7264095803b4bc0ea26e103ac994928400abe426/dhammapada-tweet-bot.py#L72-L89)  | |
 | ingeniumstudio/dhammapada-tweet-bot | dhammapada-tweet-bot.py | [write file](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/7264095803b4bc0ea26e103ac994928400abe426/dhammapada-tweet-bot.py#L101) | |
 | kassius/kassius.github.io | index.md | [index source](https://github.com/kassius/kassius.github.io/blob/f0855fcf1b639fba69061ca628993fccc168515d/content/index.md?plain=1#L5) | |
-
+-->
 
 
 <!--![dhammapada](https://yoke.kassius.org/dhammapada?format=png)-->
