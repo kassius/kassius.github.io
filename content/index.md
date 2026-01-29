@@ -11,4 +11,4 @@ sources:
 [draw random verse](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/27af11773339519069f2be5890636e944bd8e4fc/dhammapada-tweet-bot.py#L88-L99), 
 [format verses & verse numbers](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/27af11773339519069f2be5890636e944bd8e4fc/dhammapada-tweet-bot.py#L113-L130), 
 [write file](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/27af11773339519069f2be5890636e944bd8e4fc/dhammapada-tweet-bot.py#L142), 
-[index source](https://github.com/kassius/kassius.github.io/blob/f0855fcf1b639fba69061ca628993fccc168515d/content/index.md?plain=1#L5)
+[index source](https://github.com/kassius/kassius.github.io/blob/v4/content/index.md?plain=1)
