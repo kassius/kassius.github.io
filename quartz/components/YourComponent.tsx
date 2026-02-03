@@ -10,7 +10,8 @@ interface Options {
 const defaultOpts: Options = {
   favouriteNumber: 42,
   // Default to a text file (e.g., your own robots.txt or an API)
-  apiEndpoint: "https://kassius.org/robots.txt",
+  // apiEndpoint: "https://kassius.org/robots.txt",
+  apiEndpoint: "https://yoke.kassius.org/dhammapada",
 }
 
 export default ((userOpts?: Options) => {
