@@ -24,7 +24,8 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 
-import YourComponent from "./YourComponent"
+import Dhammapada from "./Dhammapada"
+// import YourComponent from "./YourComponent"
 
 export {
   ArticleTitle,
@@ -53,5 +54,6 @@ export {
   Flex,
   ConditionalRender,
 
-  YourComponent,
+  Dhammapada,
+  // YourComponent,
 }

@@ -24,7 +24,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
     Component.ConditionalRender({
-      component: Component.YourComponent(),
+      component: Component.Dhammapada(),
       condition: (page) => page.fileData.slug === "index",
     }),
   ],
