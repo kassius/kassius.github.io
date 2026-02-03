@@ -6,7 +6,7 @@ interface Options {
 }
 
 const defaultOpts: Options = {
-  apiEndpoint: "https://yoke.kassius.org/dhammapada",
+  apiEndpoint: "https://yoke.kassius.org/dhammapada?space_padding=1",
 }
 
 export default ((userOpts?: Options) => {
