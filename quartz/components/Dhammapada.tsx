@@ -26,11 +26,14 @@ export default ((userOpts?: Options) => {
         <pre id={elementId} style={{
           /*background: "#222", 
           color: "#0f0", */
-          color: "#333;",
+          // color: "#333;",
           fontSize: "inherit",
 
           // padding: "1rem",
-          overflow: "auto"
+          overflow: "auto",
+          border: "none",
+          boxShadow: "none",
+          outline: "none",
         }}>
         </pre>
       </div>
