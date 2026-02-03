@@ -21,13 +21,14 @@ export default ((userOpts?: Options) => {
       <div class="external-api-box">
         
         {/* 2. Create a placeholder for the text */}
-        <pre id={elementId} style={{ 
+        <pre id={elementId} style={{
           /*background: "#222", 
           color: "#0f0", */
           color: "#333;",
+          fontSize: "unset",
 
-          padding: "1rem", 
-          overflow: "auto" 
+          // padding: "1rem",
+          overflow: "auto"
         }}>
         </pre>
       </div>
