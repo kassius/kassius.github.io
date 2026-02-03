@@ -24,7 +24,7 @@ export default ((userOpts?: Options) => {
         <pre id={elementId} style={{ 
           /*background: "#222", 
           color: "#0f0", */
-         color: #333;
+          color: "#333;",
 
           padding: "1rem", 
           overflow: "auto" 
