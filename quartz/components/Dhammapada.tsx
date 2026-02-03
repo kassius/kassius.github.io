@@ -18,14 +18,16 @@ export default ((userOpts?: Options) => {
     const elementId = `api-result-dhammapada`
 
     return (
-      <div class="external-api-box">
+      <div class="external-api-box" style={{
+        border: 0,
+      }}>
         
         {/* 2. Create a placeholder for the text */}
         <pre id={elementId} style={{
           /*background: "#222", 
           color: "#0f0", */
           color: "#333;",
-          fontSize: "unset",
+          fontSize: "inherit",
 
           // padding: "1rem",
           overflow: "auto"
