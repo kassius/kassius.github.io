@@ -6,7 +6,7 @@ interface Options {
 }
 
 const defaultOpts: Options = {
-  apiEndpoint: "https://yoke.kassius.org/dashboard/dhammapada",
+  apiEndpoint: "https://yoke.kassius.org/dhammapada",
 }
 
 export default ((userOpts?: Options) => {
@@ -24,14 +24,9 @@ export default ((userOpts?: Options) => {
         
         {/* 2. Create a placeholder for the text */}
         <pre id={elementId} style={{
-          /*background: "#222", 
-          color: "#0f0", */
-          // color: "#333;",
           fontSize: "inherit",
           textAlign: "center",
 
-          // padding: "1rem",
-          // overflow: "auto",
           border: "none",
           boxShadow: "none",
           outline: "none",
