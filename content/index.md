@@ -3,12 +3,12 @@ title: Kassius Yoke's Digital Garden
 ---
 
 sources: 
-[endpoint](https://github.com/ingeniumstudio/api/blob/b86878aac990d6bc985dc09665716757394f93ea/routes.py#L61-L86), 
-[read/add date](https://github.com/ingeniumstudio/api/blob/b86878aac990d6bc985dc09665716757394f93ea/functions.py#L53-L74), 
-[file path](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/27af11773339519069f2be5890636e944bd8e4fc/dhammapada-tweet-bot.py#L19-L20), 
-[draw random verse](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/27af11773339519069f2be5890636e944bd8e4fc/dhammapada-tweet-bot.py#L88-L99), 
-[format verses & verse numbers](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/27af11773339519069f2be5890636e944bd8e4fc/dhammapada-tweet-bot.py#L113-L130), 
-[write file](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/27af11773339519069f2be5890636e944bd8e4fc/dhammapada-tweet-bot.py#L142), 
-[index source](https://github.com/kassius/kassius.github.io/blob/v4/content/index.md?plain=1)
+[endpoint](https://github.com/ingeniumstudio/api/blob/1f5d7dd91ab55f68070bffc68f7b7cb34f4a6f45/routes.py#L74-L100), 
+[read/add date](https://github.com/ingeniumstudio/api/blob/1f5d7dd91ab55f68070bffc68f7b7cb34f4a6f45/functions.py#L53-L74), 
+[file path](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/f47507c2d21363f601f4b27980b45990cf6f1c75/dhammapada-tweet-bot.py#L19-L20), 
+[draw random verse](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/f47507c2d21363f601f4b27980b45990cf6f1c75/dhammapada-tweet-bot.py#L189-L200), 
+[format verses & verse numbers](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/f47507c2d21363f601f4b27980b45990cf6f1c75/dhammapada-tweet-bot.py#L66-L85), 
+[write file](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/f47507c2d21363f601f4b27980b45990cf6f1c75/dhammapada-tweet-bot.py#L179-L187), 
+[component](https://github.com/kassius/kassius.github.io/blob/v4/quartz/components/Dhammapada.tsx)
 
 <!--<iframe src="https://yoke.kassius.org/dhammapada" style="width: 100%; height: 300px; border: 0;"></iframe>-->

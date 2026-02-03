@@ -1,4 +1,4 @@
-> [! warning]
+> [!warning]
 > WIP
 
 * GitHub [gists](https://gist.github.com/iacchus)
