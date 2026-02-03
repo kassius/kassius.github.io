@@ -6,7 +6,7 @@ interface Options {
 }
 
 const defaultOpts: Options = {
-  apiEndpoint: "https://yoke.kassius.org/dhammapada",
+  apiEndpoint: "https://yoke.kassius.org/dashboard/dhammapada",
 }
 
 export default ((userOpts?: Options) => {
@@ -19,7 +19,7 @@ export default ((userOpts?: Options) => {
 
     return (
       <div class="external-api-box" style={{
-        border: 0,
+        fontSize: "inherit",
       }}>
         
         {/* 2. Create a placeholder for the text */}
@@ -28,9 +28,10 @@ export default ((userOpts?: Options) => {
           color: "#0f0", */
           // color: "#333;",
           fontSize: "inherit",
+          textAlign: "center",
 
           // padding: "1rem",
-          overflow: "auto",
+          // overflow: "auto",
           border: "none",
           boxShadow: "none",
           outline: "none",
