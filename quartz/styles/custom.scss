@@ -2,8 +2,23 @@
 
 // put your custom CSS here!
 
+// @font-face {
+//     font-family: 'Inconsolata Nerd Font Mono';
+//     src: url('InconsolataNerdFontMono-Regular.woff') format('woff'),
+//     url('InconsolataNerdFontMono-Regular.ttf') format('truetype');
+//   }
+
 @font-face {
-    font-family: 'Inconsolata Nerd Font Mono';
-    src: url('InconsolataNerdFontMono-Regular.woff') format('woff'),
-    url('InconsolataNerdFontMono-Regular.ttf') format('truetype');
+    font-family: 'MesloLG Nerd Font Mono';
+    src: url('/static/fonts/MesloLGMNerdFontMono-Regular.ttf') format('truetype');
   }
+
+@font-face {
+    font-family: 'Monofur Nerd Font Mono';
+    src: url('/static/fonts/MonofurNerdFontMono-Regular.ttf') format('truetype');
+  }
+
+pre {
+  font-family: "Monofur Nerd Font Mono", monospace;
+  // font-family: "MesloLG Nerd Font Mono", monospace;
+}
