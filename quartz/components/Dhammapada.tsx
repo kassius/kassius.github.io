@@ -22,7 +22,7 @@ export default ((userOpts?: Options) => {
       }}>
         
         <pre id={elementId} style={{
-          fontSize: "inherit",
+          //fontSize: "inherit",
           textAlign: "center",
 
           border: "none",
