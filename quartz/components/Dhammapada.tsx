@@ -14,7 +14,6 @@ export default ((userOpts?: Options) => {
 
   function Dhammapada(props: QuartzComponentProps) {
 
-    // 1. Create a unique ID for the container so our script can find it
     const elementId = `api-result-dhammapada`
 
     return (
@@ -22,7 +21,6 @@ export default ((userOpts?: Options) => {
         fontSize: "inherit",
       }}>
         
-        {/* 2. Create a placeholder for the text */}
         <pre id={elementId} style={{
           fontSize: "inherit",
           textAlign: "center",
@@ -35,9 +33,7 @@ export default ((userOpts?: Options) => {
       </div>
     )
   }
-// ... imports and component function ...
 
-  // This script runs in the browser
   Dhammapada.afterDOMLoaded = `
     // 1. Define the logic as a named function
     async function loadRemoteText() {
@@ -51,7 +47,6 @@ export default ((userOpts?: Options) => {
         box.innerText = text;
       } catch (err) {
         box.innerText = "Failed to load: " + err.message;
-        // box.style.color = "red";
         box.style.color = "#aaa";
       }
     }
@@ -71,27 +66,3 @@ export default ((userOpts?: Options) => {
   return Dhammapada
 }) satisfies QuartzComponentConstructor
 
-//
-//   // 3. Attach a client-side script to fetch the data
-//   // This runs in the browser after the page loads
-//   Dhammapada.afterDOMLoaded = `
-//     const container = document.getElementById('api-result-dhammapada');
-//     if (container) {
-//       fetch("${opts.apiEndpoint}")
-//         .then(response => {
-//           if (!response.ok) throw new Error("HTTP " + response.status);
-//           // Vital: use .text() instead of .json()
-//           return response.text();
-//         })
-//         .then(text => {
-//           container.innerText = text;
-//         })
-//         .catch(err => {
-//           container.innerText = "Failed to load: " + err.message;
-//           container.style.color = "red";
-//         });
-//     }
-//   `
-//
-//   return Dhammapada
-// }) satisfies QuartzComponentConstructor
