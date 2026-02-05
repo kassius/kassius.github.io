@@ -1,5 +1,8 @@
 * **encode** — Encode the string using the codec registered for encoding.
   ```python
+  encode(encoding='utf-8', errors='strict')
+  
+
     encoding
       The encoding in which to encode the string.
     errors
@@ -8,22 +11,26 @@
       UnicodeEncodeError.  Other possible values are 'ignore', 'replace' and
       'xmlcharrefreplace' as well as any other name registered with
       codecs.register_error that can handle UnicodeEncodeErrors.
-
   ```
 
 * **replace** — Return a copy with all occurrences of substring old replaced by new.
   ```python
+  replace(old, new, count=-1, /)
+  
+
     count
       Maximum number of occurrences to replace.
       -1 (the default value) means replace all occurrences.
   
   If the optional argument count is given, only the first count occurrences are
   replaced.
-
   ```
 
 * **split** — Return a list of the substrings in the string, using sep as the separator string.
   ```python
+  split(sep=None, maxsplit=-1)
+  
+
     sep
       The separator used to split the string.
   
@@ -39,11 +46,13 @@
   Note, str.split() is mainly useful for data that has been intentionally
   delimited.  With natural text that includes punctuation, consider using
   the regular expression module.
-
   ```
 
 * **rsplit** — Return a list of the substrings in the string, using sep as the separator string.
   ```python
+  rsplit(sep=None, maxsplit=-1)
+  
+
     sep
       The separator used to split the string.
   
@@ -55,172 +64,210 @@
       -1 (the default value) means no limit.
   
   Splitting starts at the end of the string and works to the front.
-
   ```
 
 * **join** — Concatenate any number of strings.
   ```python
+  join(iterable, /)
+  
+
   The string whose method is called is inserted in between each given string.
   The result is returned as a new string.
   
   Example: '.'.join(['ab', 'pq', 'rs']) -> 'ab.pq.rs'
-
   ```
 
 * **capitalize** — Return a capitalized version of the string.
   ```python
+  capitalize()
+  
+
   More specifically, make the first character have upper case and the rest lower
   case.
-
   ```
 
 * **casefold** — Return a version of the string suitable for caseless comparisons.
   ```python
-    More specifically, make the first character have upper case and the rest lower
-    case.
+  casefold()
+  
+
 
   ```
 
 * **title** — Return a version of the string where each word is titlecased.
   ```python
+  title()
+  
+
   More specifically, words start with uppercased characters and all remaining
   cased characters have lower case.
-
   ```
 
 * **center** — Return a centered string of length width.
   ```python
-  Padding is done using the specified fill character (default is a space).
+  center(width, fillchar=' ', /)
+  
 
+  Padding is done using the specified fill character (default is a space).
   ```
 
 * **count** — S.count(sub[, start[, end]]) -> int
   ```python
+  \\
+
   Return the number of non-overlapping occurrences of substring sub in
   string S[start:end].  Optional arguments start and end are
   interpreted as in slice notation.
-
   ```
 
 * **expandtabs** — Return a copy where all tab characters are expanded using spaces.
   ```python
-  If tabsize is not given, a tab size of 8 characters is assumed.
+  expandtabs(tabsize=8)
+  
 
+  If tabsize is not given, a tab size of 8 characters is assumed.
   ```
 
 * **find** — S.find(sub[, start[, end]]) -> int
   ```python
+  \\
+
   Return the lowest index in S where substring sub is found,
   such that sub is contained within S[start:end].  Optional
   arguments start and end are interpreted as in slice notation.
   
   Return -1 on failure.
-
   ```
 
 * **partition** — Partition the string into three parts using the given separator.
   ```python
+  partition(sep, /)
+  
+
   This will search for the separator in the string.  If the separator is found,
   returns a 3-tuple containing the part before the separator, the separator
   itself, and the part after it.
   
   If the separator is not found, returns a 3-tuple containing the original string
   and two empty strings.
-
   ```
 
 * **index** — S.index(sub[, start[, end]]) -> int
   ```python
+  \\
+
   Return the lowest index in S where substring sub is found,
   such that sub is contained within S[start:end].  Optional
   arguments start and end are interpreted as in slice notation.
   
   Raises ValueError when the substring is not found.
-
   ```
 
 * **ljust** — Return a left-justified string of length width.
   ```python
-  Padding is done using the specified fill character (default is a space).
+  ljust(width, fillchar=' ', /)
+  
 
+  Padding is done using the specified fill character (default is a space).
   ```
 
 * **lower** — Return a copy of the string converted to lowercase.
   ```python
-    Padding is done using the specified fill character (default is a space).
+  lower()
+  
+
 
   ```
 
 * **lstrip** — Return a copy of the string with leading whitespace removed.
   ```python
-  If chars is given and not None, remove characters in chars instead.
+  lstrip(chars=None, /)
+  
 
+  If chars is given and not None, remove characters in chars instead.
   ```
 
 * **rfind** — S.rfind(sub[, start[, end]]) -> int
   ```python
+  \\
+
   Return the highest index in S where substring sub is found,
   such that sub is contained within S[start:end].  Optional
   arguments start and end are interpreted as in slice notation.
   
   Return -1 on failure.
-
   ```
 
 * **rindex** — S.rindex(sub[, start[, end]]) -> int
   ```python
+  \\
+
   Return the highest index in S where substring sub is found,
   such that sub is contained within S[start:end].  Optional
   arguments start and end are interpreted as in slice notation.
   
   Raises ValueError when the substring is not found.
-
   ```
 
 * **rjust** — Return a right-justified string of length width.
   ```python
-  Padding is done using the specified fill character (default is a space).
+  rjust(width, fillchar=' ', /)
+  
 
+  Padding is done using the specified fill character (default is a space).
   ```
 
 * **rstrip** — Return a copy of the string with trailing whitespace removed.
   ```python
-  If chars is given and not None, remove characters in chars instead.
+  rstrip(chars=None, /)
+  
 
+  If chars is given and not None, remove characters in chars instead.
   ```
 
 * **rpartition** — Partition the string into three parts using the given separator.
   ```python
+  rpartition(sep, /)
+  
+
   This will search for the separator in the string, starting at the end. If
   the separator is found, returns a 3-tuple containing the part before the
   separator, the separator itself, and the part after it.
   
   If the separator is not found, returns a 3-tuple containing two empty strings
   and the original string.
-
   ```
 
 * **splitlines** — Return a list of the lines in the string, breaking at line boundaries.
   ```python
+  splitlines(keepends=False)
+  
+
   Line breaks are not included in the resulting list unless keepends is given and
   true.
-
   ```
 
 * **strip** — Return a copy of the string with leading and trailing whitespace removed.
   ```python
-  If chars is given and not None, remove characters in chars instead.
+  strip(chars=None, /)
+  
 
+  If chars is given and not None, remove characters in chars instead.
   ```
 
 * **swapcase** — Convert uppercase characters to lowercase and lowercase characters to uppercase.
   ```python
-    If chars is given and not None, remove characters in chars instead.
+  swapcase()
+  
+
 
   ```
 
 * **translate** — Replace each character in the string using the given translation table.
   ```python
+  translate(table, /)
+  
+
     table
       Translation table, which must be a mapping of Unicode ordinals to
       Unicode ordinals, strings, or None.
@@ -228,159 +275,190 @@
   The table must implement lookup/indexing via __getitem__, for instance a
   dictionary or list.  If this operation raises LookupError, the character is
   left untouched.  Characters mapped to None are deleted.
-
   ```
 
 * **upper** — Return a copy of the string converted to uppercase.
   ```python
-      table
-        Translation table, which must be a mapping of Unicode ordinals to
-        Unicode ordinals, strings, or None.
-    
-    The table must implement lookup/indexing via __getitem__, for instance a
-    dictionary or list.  If this operation raises LookupError, the character is
-    left untouched.  Characters mapped to None are deleted.
+  upper()
+  
+
 
   ```
 
 * **startswith** — S.startswith(prefix[, start[, end]]) -> bool
   ```python
+  \\
+
   Return True if S starts with the specified prefix, False otherwise.
   With optional start, test S beginning at that position.
   With optional end, stop comparing S at that position.
   prefix can also be a tuple of strings to try.
-
   ```
 
 * **endswith** — S.endswith(suffix[, start[, end]]) -> bool
   ```python
+  \\
+
   Return True if S ends with the specified suffix, False otherwise.
   With optional start, test S beginning at that position.
   With optional end, stop comparing S at that position.
   suffix can also be a tuple of strings to try.
-
   ```
 
 * **removeprefix** — Return a str with the given prefix string removed if present.
   ```python
+  removeprefix(prefix, /)
+  
+
   If the string starts with the prefix string, return string[len(prefix):].
   Otherwise, return a copy of the original string.
-
   ```
 
 * **removesuffix** — Return a str with the given suffix string removed if present.
   ```python
+  removesuffix(suffix, /)
+  
+
   If the string ends with the suffix string and that suffix is not empty,
   return string[:-len(suffix)]. Otherwise, return a copy of the original
   string.
-
   ```
 
 * **isascii** — Return True if all characters in the string are ASCII, False otherwise.
   ```python
+  isascii()
+  
+
   ASCII characters have code points in the range U+0000-U+007F.
   Empty string is ASCII too.
-
   ```
 
 * **islower** — Return True if the string is a lowercase string, False otherwise.
   ```python
+  islower()
+  
+
   A string is lowercase if all cased characters in the string are lowercase and
   there is at least one cased character in the string.
-
   ```
 
 * **isupper** — Return True if the string is an uppercase string, False otherwise.
   ```python
+  isupper()
+  
+
   A string is uppercase if all cased characters in the string are uppercase and
   there is at least one cased character in the string.
-
   ```
 
 * **istitle** — Return True if the string is a title-cased string, False otherwise.
   ```python
+  istitle()
+  
+
   In a title-cased string, upper- and title-case characters may only
   follow uncased characters and lowercase characters only cased ones.
-
   ```
 
 * **isspace** — Return True if the string is a whitespace string, False otherwise.
   ```python
+  isspace()
+  
+
   A string is whitespace if all characters in the string are whitespace and there
   is at least one character in the string.
-
   ```
 
 * **isdecimal** — Return True if the string is a decimal string, False otherwise.
   ```python
+  isdecimal()
+  
+
   A string is a decimal string if all characters in the string are decimal and
   there is at least one character in the string.
-
   ```
 
 * **isdigit** — Return True if the string is a digit string, False otherwise.
   ```python
+  isdigit()
+  
+
   A string is a digit string if all characters in the string are digits and there
   is at least one character in the string.
-
   ```
 
 * **isnumeric** — Return True if the string is a numeric string, False otherwise.
   ```python
+  isnumeric()
+  
+
   A string is numeric if all characters in the string are numeric and there is at
   least one character in the string.
-
   ```
 
 * **isalpha** — Return True if the string is an alphabetic string, False otherwise.
   ```python
+  isalpha()
+  
+
   A string is alphabetic if all characters in the string are alphabetic and there
   is at least one character in the string.
-
   ```
 
 * **isalnum** — Return True if the string is an alpha-numeric string, False otherwise.
   ```python
+  isalnum()
+  
+
   A string is alpha-numeric if all characters in the string are alpha-numeric and
   there is at least one character in the string.
-
   ```
 
 * **isidentifier** — Return True if the string is a valid Python identifier, False otherwise.
   ```python
+  isidentifier()
+  
+
   Call keyword.iskeyword(s) to test whether string s is a reserved identifier,
   such as "def" or "class".
-
   ```
 
 * **isprintable** — Return True if all characters in the string are printable, False otherwise.
   ```python
-  A character is printable if repr() may use it in its output.
+  isprintable()
+  
 
+  A character is printable if repr() may use it in its output.
   ```
 
 * **zfill** — Pad a numeric string with zeros on the left, to fill a field of the given width.
   ```python
-  The string is never truncated.
+  zfill(width, /)
+  
 
+  The string is never truncated.
   ```
 
 * **format** — S.format(*args, **kwargs) -> str
   ```python
+  \\
+
   Return a formatted version of S, using substitutions from args and kwargs.
   The substitutions are identified by braces ('{' and '}').
-
   ```
 
 * **format_map** — S.format_map(mapping) -> str
   ```python
+  \\
+
   Return a formatted version of S, using substitutions from mapping.
   The substitutions are identified by braces ('{' and '}').
-
   ```
 
 * **maketrans** — Return a translation table usable for str.translate().
   ```python
+  \\
+
   If there is only one argument, it must be a dictionary mapping Unicode
   ordinals (integers) or characters to Unicode ordinals, strings or None.
   Character keys will be then converted to ordinals.
@@ -388,5 +466,4 @@
   in the resulting dictionary, each character in x will be mapped to the
   character at the same position in y. If there is a third argument, it
   must be a string, whose characters will be mapped to None in the result.
-
   ```
