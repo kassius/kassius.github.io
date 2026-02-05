@@ -1,3 +1,5 @@
+https://gist.github.com/iacchus/5e5a4c3f0badf49e87ced15ef84889bd
+
 * **encode** — Encode the string using the codec registered for encoding.
 
   ```python
