@@ -13,6 +13,8 @@
         'xmlcharrefreplace' as well as any other name registered with
         codecs.register_error that can handle UnicodeEncodeErrors.
 
+---
+
 * **replace** — Return a copy with all occurrences of substring old replaced by new.
 
   ```python
@@ -25,6 +27,8 @@
     
     If the optional argument count is given, only the first count occurrences are
     replaced.
+
+---
 
 * **split** — Return a list of the substrings in the string, using sep as the separator string.
 
@@ -48,6 +52,8 @@
     delimited.  With natural text that includes punctuation, consider using
     the regular expression module.
 
+---
+
 * **rsplit** — Return a list of the substrings in the string, using sep as the separator string.
 
   ```python
@@ -66,6 +72,8 @@
     
     Splitting starts at the end of the string and works to the front.
 
+---
+
 * **join** — Concatenate any number of strings.
 
   ```python
@@ -77,6 +85,8 @@
     
     Example: '.'.join(['ab', 'pq', 'rs']) -> 'ab.pq.rs'
 
+---
+
 * **capitalize** — Return a capitalized version of the string.
 
   ```python
@@ -86,6 +96,8 @@
     More specifically, make the first character have upper case and the rest lower
     case.
 
+---
+
 * **casefold** — Return a version of the string suitable for caseless comparisons.
 
   ```python
@@ -93,6 +105,8 @@
   ```
     
 
+
+---
 
 * **title** — Return a version of the string where each word is titlecased.
 
@@ -103,6 +117,8 @@
     More specifically, words start with uppercased characters and all remaining
     cased characters have lower case.
 
+---
+
 * **center** — Return a centered string of length width.
 
   ```python
@@ -111,11 +127,15 @@
     
     Padding is done using the specified fill character (default is a space).
 
+---
+
 * **count** — S.count(sub[, start[, end]]) -> int
 
       Return the number of non-overlapping occurrences of substring sub in
     string S[start:end].  Optional arguments start and end are
     interpreted as in slice notation.
+
+---
 
 * **expandtabs** — Return a copy where all tab characters are expanded using spaces.
 
@@ -125,6 +145,8 @@
     
     If tabsize is not given, a tab size of 8 characters is assumed.
 
+---
+
 * **find** — S.find(sub[, start[, end]]) -> int
 
       Return the lowest index in S where substring sub is found,
@@ -132,6 +154,8 @@
     arguments start and end are interpreted as in slice notation.
     
     Return -1 on failure.
+
+---
 
 * **partition** — Partition the string into three parts using the given separator.
 
@@ -146,6 +170,8 @@
     If the separator is not found, returns a 3-tuple containing the original string
     and two empty strings.
 
+---
+
 * **index** — S.index(sub[, start[, end]]) -> int
 
       Return the lowest index in S where substring sub is found,
@@ -153,6 +179,8 @@
     arguments start and end are interpreted as in slice notation.
     
     Raises ValueError when the substring is not found.
+
+---
 
 * **ljust** — Return a left-justified string of length width.
 
@@ -162,6 +190,8 @@
     
     Padding is done using the specified fill character (default is a space).
 
+---
+
 * **lower** — Return a copy of the string converted to lowercase.
 
   ```python
@@ -169,6 +199,8 @@
   ```
     
 
+
+---
 
 * **lstrip** — Return a copy of the string with leading whitespace removed.
 
@@ -178,6 +210,8 @@
     
     If chars is given and not None, remove characters in chars instead.
 
+---
+
 * **rfind** — S.rfind(sub[, start[, end]]) -> int
 
       Return the highest index in S where substring sub is found,
@@ -185,6 +219,8 @@
     arguments start and end are interpreted as in slice notation.
     
     Return -1 on failure.
+
+---
 
 * **rindex** — S.rindex(sub[, start[, end]]) -> int
 
@@ -194,6 +230,8 @@
     
     Raises ValueError when the substring is not found.
 
+---
+
 * **rjust** — Return a right-justified string of length width.
 
   ```python
@@ -202,6 +240,8 @@
     
     Padding is done using the specified fill character (default is a space).
 
+---
+
 * **rstrip** — Return a copy of the string with trailing whitespace removed.
 
   ```python
@@ -209,6 +249,8 @@
   ```
     
     If chars is given and not None, remove characters in chars instead.
+
+---
 
 * **rpartition** — Partition the string into three parts using the given separator.
 
@@ -223,6 +265,8 @@
     If the separator is not found, returns a 3-tuple containing two empty strings
     and the original string.
 
+---
+
 * **splitlines** — Return a list of the lines in the string, breaking at line boundaries.
 
   ```python
@@ -232,6 +276,8 @@
     Line breaks are not included in the resulting list unless keepends is given and
     true.
 
+---
+
 * **strip** — Return a copy of the string with leading and trailing whitespace removed.
 
   ```python
@@ -240,6 +286,8 @@
     
     If chars is given and not None, remove characters in chars instead.
 
+---
+
 * **swapcase** — Convert uppercase characters to lowercase and lowercase characters to uppercase.
 
   ```python
@@ -247,6 +295,8 @@
   ```
     
 
+
+---
 
 * **translate** — Replace each character in the string using the given translation table.
 
@@ -262,6 +312,8 @@
     dictionary or list.  If this operation raises LookupError, the character is
     left untouched.  Characters mapped to None are deleted.
 
+---
+
 * **upper** — Return a copy of the string converted to uppercase.
 
   ```python
@@ -270,6 +322,8 @@
     
 
 
+---
+
 * **startswith** — S.startswith(prefix[, start[, end]]) -> bool
 
       Return True if S starts with the specified prefix, False otherwise.
@@ -277,12 +331,16 @@
     With optional end, stop comparing S at that position.
     prefix can also be a tuple of strings to try.
 
+---
+
 * **endswith** — S.endswith(suffix[, start[, end]]) -> bool
 
       Return True if S ends with the specified suffix, False otherwise.
     With optional start, test S beginning at that position.
     With optional end, stop comparing S at that position.
     suffix can also be a tuple of strings to try.
+
+---
 
 * **removeprefix** — Return a str with the given prefix string removed if present.
 
@@ -292,6 +350,8 @@
     
     If the string starts with the prefix string, return string[len(prefix):].
     Otherwise, return a copy of the original string.
+
+---
 
 * **removesuffix** — Return a str with the given suffix string removed if present.
 
@@ -303,6 +363,8 @@
     return string[:-len(suffix)]. Otherwise, return a copy of the original
     string.
 
+---
+
 * **isascii** — Return True if all characters in the string are ASCII, False otherwise.
 
   ```python
@@ -311,6 +373,8 @@
     
     ASCII characters have code points in the range U+0000-U+007F.
     Empty string is ASCII too.
+
+---
 
 * **islower** — Return True if the string is a lowercase string, False otherwise.
 
@@ -321,6 +385,8 @@
     A string is lowercase if all cased characters in the string are lowercase and
     there is at least one cased character in the string.
 
+---
+
 * **isupper** — Return True if the string is an uppercase string, False otherwise.
 
   ```python
@@ -329,6 +395,8 @@
     
     A string is uppercase if all cased characters in the string are uppercase and
     there is at least one cased character in the string.
+
+---
 
 * **istitle** — Return True if the string is a title-cased string, False otherwise.
 
@@ -339,6 +407,8 @@
     In a title-cased string, upper- and title-case characters may only
     follow uncased characters and lowercase characters only cased ones.
 
+---
+
 * **isspace** — Return True if the string is a whitespace string, False otherwise.
 
   ```python
@@ -347,6 +417,8 @@
     
     A string is whitespace if all characters in the string are whitespace and there
     is at least one character in the string.
+
+---
 
 * **isdecimal** — Return True if the string is a decimal string, False otherwise.
 
@@ -357,6 +429,8 @@
     A string is a decimal string if all characters in the string are decimal and
     there is at least one character in the string.
 
+---
+
 * **isdigit** — Return True if the string is a digit string, False otherwise.
 
   ```python
@@ -365,6 +439,8 @@
     
     A string is a digit string if all characters in the string are digits and there
     is at least one character in the string.
+
+---
 
 * **isnumeric** — Return True if the string is a numeric string, False otherwise.
 
@@ -375,6 +451,8 @@
     A string is numeric if all characters in the string are numeric and there is at
     least one character in the string.
 
+---
+
 * **isalpha** — Return True if the string is an alphabetic string, False otherwise.
 
   ```python
@@ -383,6 +461,8 @@
     
     A string is alphabetic if all characters in the string are alphabetic and there
     is at least one character in the string.
+
+---
 
 * **isalnum** — Return True if the string is an alpha-numeric string, False otherwise.
 
@@ -393,6 +473,8 @@
     A string is alpha-numeric if all characters in the string are alpha-numeric and
     there is at least one character in the string.
 
+---
+
 * **isidentifier** — Return True if the string is a valid Python identifier, False otherwise.
 
   ```python
@@ -402,6 +484,8 @@
     Call keyword.iskeyword(s) to test whether string s is a reserved identifier,
     such as "def" or "class".
 
+---
+
 * **isprintable** — Return True if all characters in the string are printable, False otherwise.
 
   ```python
@@ -409,6 +493,8 @@
   ```
     
     A character is printable if repr() may use it in its output.
+
+---
 
 * **zfill** — Pad a numeric string with zeros on the left, to fill a field of the given width.
 
@@ -418,15 +504,21 @@
     
     The string is never truncated.
 
+---
+
 * **format** — S.format(*args, **kwargs) -> str
 
       Return a formatted version of S, using substitutions from args and kwargs.
     The substitutions are identified by braces ('{' and '}').
 
+---
+
 * **format_map** — S.format_map(mapping) -> str
 
       Return a formatted version of S, using substitutions from mapping.
     The substitutions are identified by braces ('{' and '}').
+
+---
 
 * **maketrans** — Return a translation table usable for str.translate().
 
@@ -437,3 +529,5 @@
     in the resulting dictionary, each character in x will be mapped to the
     character at the same position in y. If there is a third argument, it
     must be a string, whose characters will be mapped to None in the result.
+
+---
