@@ -12,3 +12,8 @@ sources:
 [component](https://github.com/kassius/kassius.github.io/blob/v4/quartz/components/Dhammapada.tsx)
 
 <!--<iframe src="https://yoke.kassius.org/dhammapada" style="width: 100%; height: 300px; border: 0;"></iframe>-->
+
+<div align="center">
+![tweet](https://twitter.com/ArtofLivingIC/status/2022856498909675735)
+</div>
+
