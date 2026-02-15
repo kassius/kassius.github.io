@@ -5,9 +5,9 @@ I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually wh
 
 ## building `sharp`
 
-- [Cross-platform](https://sharp.pixelplumbing.com/install/#cross-platform)
-- [Custom libvips](https://sharp.pixelplumbing.com/install/#custom-libvips)
-- [Building from source](https://sharp.pixelplumbing.com/install/#building-from-source)
+* [Cross-platform](https://sharp.pixelplumbing.com/install/#cross-platform)
+* [Custom libvips](https://sharp.pixelplumbing.com/install/#custom-libvips)
+* [Building from source](https://sharp.pixelplumbing.com/install/#building-from-source)
 
 ## `sharp` dependencies
 
@@ -21,15 +21,15 @@ I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually wh
 
 ### npm-install
 
-- [--cpu](https://docs.npmjs.com/cli/v9/commands/npm-install#cpu)
-- [--os](https://docs.npmjs.com/cli/v9/commands/npm-install#os)
-- ~~--libc~~
+* [--cpu](https://docs.npmjs.com/cli/v9/commands/npm-install#cpu)
+* [--os](https://docs.npmjs.com/cli/v9/commands/npm-install#os)
+* ~~--libc~~
 
 ### package.json
 
-- [cpu](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#cpu)
-- [libc](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#libc)
-- [os](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#os)
+* [cpu](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#cpu)
+* [libc](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#libc)
+* [os](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#os)
 
 ## termux packages
 
@@ -50,7 +50,6 @@ add here the compiling pkgs etc
 ```sh
 mkdir ~/.gyp && echo "{'variables': {'android_ndk_path': ''}}" > ~/.gyp/include.gypi
 ```
-
 [source](https://www.reddit.com/r/termux/comments/1ewjj35/comment/lj11tnj/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 ## finding the arch
@@ -58,7 +57,6 @@ mkdir ~/.gyp && echo "{'variables': {'android_ndk_path': ''}}" > ~/.gyp/include.
 ```sh
 dpkg --print-architecture
 ```
-
 [source](https://www.reddit.com/r/termux/comments/uxb312/comment/i9ww65g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 ## installing `sharp` build dependencies
@@ -66,7 +64,6 @@ dpkg --print-architecture
 ```sh
 npm install --save --os=linux --cpu=aarch64 --libc=bionic node-addon-api node-gyp
 ```
-
 [source](https://sharp.pixelplumbing.com/install/#building-from-source)
 
 ## npm installing quartz / building `sharp`
@@ -74,7 +71,6 @@ npm install --save --os=linux --cpu=aarch64 --libc=bionic node-addon-api node-gy
 ```sh
 npm --os=linux --cpu=aarch64 --libc=bionic install
 ```
-
 [source](https://quartz.jzhao.xyz/#-get-started)
 
 ## checking installed `sharp` version
@@ -88,5 +84,4 @@ npm ls sharp
 ```sh
 npx --os=linux --cpu=aarch64 --libc=bionic quartz update
 ```
-
 [source](https://quartz.jzhao.xyz/upgrading)

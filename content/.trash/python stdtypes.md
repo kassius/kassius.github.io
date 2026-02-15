@@ -31,8 +31,8 @@ python -c 'help("str")'
 
 **int**
 
-- conjugate — does this and that
-- bit_lenght
+* conjugate — does this and that
+* bit_lenght
 
 **str**
 

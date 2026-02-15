@@ -7,9 +7,8 @@
 [sway-ipc(7)](https://man.archlinux.org/man/sway-ipc.7.en)
 
 > [!info] $ man man
->
 > ```
-> MANUAL SECTIONS
+>MANUAL SECTIONS
 >    The standard sections of the manual include:
 >
 >    1      User Commands

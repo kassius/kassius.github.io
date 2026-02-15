@@ -2,7 +2,7 @@
 
 test
 
----
+* * *
 
 # Lets give it another try
 
@@ -10,7 +10,7 @@ test
 
 okay
 
----
+* * *
 
 # again
 
