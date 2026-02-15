@@ -20,7 +20,7 @@ export default ((userOpts?: Options) => {
       <div class="external-api-box" style={{
         fontSize: "inherit",
       }}>
-        
+
         <pre id={elementId} style={{
           //fontSize: "inherit",
           textAlign: "center",
@@ -65,4 +65,3 @@ export default ((userOpts?: Options) => {
 
   return Dhammapada
 }) satisfies QuartzComponentConstructor
-
