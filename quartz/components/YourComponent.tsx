@@ -29,14 +29,17 @@ export default ((userOpts?: Options) => {
       <div class="external-api-box">
         <h3>API Data Fetcher</h3>
         <p>My favourite number is {opts.favouriteNumber}</p>
-        
+
         {/* 2. Create a placeholder for the text */}
-        <pre id={elementId} style={{ 
-          background: "#222", 
-          color: "#0f0", 
-          padding: "1rem", 
-          overflow: "auto" 
-        }}>
+        <pre
+          id={elementId}
+          style={{
+            background: "#222",
+            color: "#0f0",
+            padding: "1rem",
+            overflow: "auto",
+          }}
+        >
           Loading remote text...
         </pre>
       </div>

@@ -13,23 +13,26 @@ export default ((userOpts?: Options) => {
   const opts = { ...defaultOpts, ...userOpts }
 
   function Dhammapada(props: QuartzComponentProps) {
-
     const elementId = `api-result-dhammapada`
 
     return (
-      <div class="external-api-box" style={{
-        fontSize: "inherit",
-      }}>
-        
-        <pre id={elementId} style={{
-          //fontSize: "inherit",
-          textAlign: "center",
+      <div
+        class="external-api-box"
+        style={{
+          fontSize: "inherit",
+        }}
+      >
+        <pre
+          id={elementId}
+          style={{
+            //fontSize: "inherit",
+            textAlign: "center",
 
-          border: "none",
-          boxShadow: "none",
-          outline: "none",
-        }}>
-        </pre>
+            border: "none",
+            boxShadow: "none",
+            outline: "none",
+          }}
+        ></pre>
       </div>
     )
   }
@@ -65,4 +68,3 @@ export default ((userOpts?: Options) => {
 
   return Dhammapada
 }) satisfies QuartzComponentConstructor
-

@@ -1,13 +1,13 @@
 ## Get key code for `ydotool`
 
 1. Command to get the key's name
-    ```sh
-    sudo libinput record
-    ```
+   ```sh
+   sudo libinput record
+   ```
 2. File to look for the code
-    ```sh
-    vim /usr/include/linux/input-event-codes.h
-    ```
+   ```sh
+   vim /usr/include/linux/input-event-codes.h
+   ```
 
 ## Get full file path
 
@@ -15,7 +15,7 @@
 readlink -f file.txt
 ```
 
-## Get total size of a  directory
+## Get total size of a directory
 
 ### using `du` (disk usage)
 
@@ -34,7 +34,6 @@ du -sh /path/to/directory
 **-h** human readable
 
 ### using `ncdu` (ncurses disk usage)
-
 
 ```sh
 ncdu.
