@@ -2,13 +2,13 @@ import { QuartzTransformerPlugin } from "../types"
 // @ts-ignore
 import twitterScript from "../../components/scripts/twitter.inline"
 import { JSResource } from "../../util/resources"
-import { twitterTransformer } from "./twitter.logic"
+import { twitterTransformer, TwitterOptions } from "./twitter.logic"
 
-export const Twitter: QuartzTransformerPlugin = () => {
+export const Twitter: QuartzTransformerPlugin<TwitterOptions> = (opts?: TwitterOptions) => {
   return {
     name: "Twitter",
     htmlPlugins() {
-      return [twitterTransformer]
+      return [[twitterTransformer, opts]]
     },
     externalResources() {
       const js: JSResource[] = []
