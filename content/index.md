@@ -11,6 +11,3 @@ sources:
 [write file](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/f47507c2d21363f601f4b27980b45990cf6f1c75/dhammapada-tweet-bot.py#L179-L187), 
 [component](https://github.com/kassius/kassius.github.io/blob/v4/quartz/components/Dhammapada.tsx)
 
-<!--<iframe src="https://yoke.kassius.org/dhammapada" style="width: 100%; height: 300px; border: 0;"></iframe>-->
-
-![tweet](https://twitter.com/ArtofLivingIC/status/2022856498909675735)
