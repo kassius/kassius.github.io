@@ -10,6 +10,3 @@ sources:
 [format verses & verse numbers](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/f47507c2d21363f601f4b27980b45990cf6f1c75/dhammapada-tweet-bot.py#L66-L85), 
 [write file](https://github.com/ingeniumstudio/dhammapada-tweet-bot/blob/f47507c2d21363f601f4b27980b45990cf6f1c75/dhammapada-tweet-bot.py#L179-L187), 
 [component](https://github.com/kassius/kassius.github.io/blob/v4/quartz/components/Dhammapada.tsx)
-
-https://gemini.google.com/app/8d07104631cd70ca
-
