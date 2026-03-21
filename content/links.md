@@ -13,6 +13,7 @@
 
 | link                        | what       | source                                       |
 | --------------------------- | ---------- | -------------------------------------------- |
+| https://kassius.org         | this site  | https://github.com/kassius/kassius.github.io |
 | https://vimwiki.kassius.org | my vimwiki | https://github.com/iacchus/iacchus.github.io |
 | https://yoke.kassius.org    | API        | https://github.com/ingeniumstudio/api        |
 | https://public.kassius.org  | files      |                                              |
