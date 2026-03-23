@@ -6,8 +6,7 @@ interface Options {
 }
 
 const defaultOpts: Options = {
-  apiEndpoint: "https://yoke.kassius.org/dhammapada",
-  // apiEndpoint: "https://yoke.kassius.org/dhammapada?space_padding=1",
+  apiEndpoint: "https://yoke.kassius.org/dhammapada?space_padding=1",
 }
 
 export default ((userOpts?: Options) => {
@@ -22,16 +21,15 @@ export default ((userOpts?: Options) => {
         fontSize: "inherit",
       }}>
 
-        <div id={elementId} style={{
+        <pre id={elementId} style={{
           //fontSize: "inherit",
-          // textAlign: "center",
-          textAlign: "left",
+          textAlign: "center",
 
           border: "none",
           boxShadow: "none",
           outline: "none",
         }}>
-        </div>
+        </pre>
       </div>
     )
   }
