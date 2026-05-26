@@ -272,6 +272,14 @@ plugins:
     enabled: true
     options: {}
     order: 50
+  - source: github:ingeniumstudio/quartz-plugin-dhammapada
+    enabled: true
+    options:
+      endpoint: "https://yoke.kassius.org/dhammapada"
+      className: "custom-dhammapada"
+    layout:
+      position: beforeBody # Places the verse above your article title
+      priority: 10         # Order within the slot
 layout:
   groups:
     toolbar:

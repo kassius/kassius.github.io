@@ -193,6 +193,12 @@
       "commit": "a53cf02ce7faca400bcf3cfeed47eb860329e534",
       "installedAt": "2026-05-24T15:36:16.998Z"
     },
+    "quartz-plugin-dhammapada": {
+      "source": "github:ingeniumstudio/quartz-plugin-dhammapada",
+      "resolved": "https://github.com/ingeniumstudio/quartz-plugin-dhammapada.git",
+      "commit": "423565e9a1423c46ff52d10448074229ce04f73b",
+      "installedAt": "2026-05-26T18:01:13.699Z"
+    },
     "quartz-themes": {
       "source": {
         "name": "quartz-themes",
