@@ -34,7 +34,7 @@ I have to build [sharp](https://sharp.pixelplumbing.com/) dependency manually wh
 ## termux packages
 
 ```sh
-pkg install nodejs libvips
+pkg install nodejs libvips xorgproto
 ```
 
 ### also termux packages
