@@ -98,7 +98,8 @@ plugins:
     enabled: false
     order: 85
   - source: github:quartz-community/hard-line-breaks
-    enabled: true
+    # enabled: true
+    enabled: false
     order: 90
   - source: github:quartz-community/ox-hugo
     enabled: false
@@ -221,7 +222,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
+        GitHub: https://github.com/kassius/kassius.github.io
         Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
     enabled: false
