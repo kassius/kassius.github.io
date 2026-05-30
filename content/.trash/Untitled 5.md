@@ -1,1 +1,0 @@
-![tweet](https://twitter.com/ArtofLivingIC/status/2022856498909675735)

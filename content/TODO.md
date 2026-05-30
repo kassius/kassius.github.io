@@ -1,3 +1,0 @@
-- [ ] projects
-- [x] links
-- [ ] organize lost files at `root` / 

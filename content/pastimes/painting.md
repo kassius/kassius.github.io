@@ -1,3 +1,0 @@
-like..
-
-imgmgck
