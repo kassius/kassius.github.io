@@ -26,7 +26,11 @@ const INTERNAL_EXPORTS = new Set(["manifest", "default"])
 const execAsync = promisify(execCb)
 
 async function cloneWithSubdirAsync({ url, ref, subdir, pluginDir }) {
-  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "quartz-plugin-"))
+  const tmpParent = path.join(path.dirname(PLUGINS_DIR), "tmp")
+  if (!fs.existsSync(tmpParent)) {
+    fs.mkdirSync(tmpParent, { recursive: true })
+  }
+  const tmpDir = fs.mkdtempSync(path.join(tmpParent, "plugin-"))
   try {
     if (ref) {
       await execAsync(`git clone --depth 1 --branch ${ref} "${url}" "${tmpDir}"`)
