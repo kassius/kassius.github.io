@@ -1,1 +1,0 @@
-<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>f</kbd> 
