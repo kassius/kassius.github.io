@@ -4,3 +4,13 @@
 | Scale layer | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> |
 | Lower layer | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>J</kbd> |
 | Raise layer | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>K</kbd> |
+
+# title
+
+desc1  
+desc2  
+
+| Action   | Hotkeys                        |
+|----------|--------------------------------|
+| Quit     | <kbd>Ctrl</kbd> + <kbd>Q</kbd> |
+
