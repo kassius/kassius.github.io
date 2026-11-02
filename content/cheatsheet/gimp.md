@@ -7,10 +7,10 @@
 
   ---
 
-## title
+## title  
 
 desc1
-desc2
+desc2  
 
 | Action   | Hotkeys                        |
 |----------|--------------------------------|
