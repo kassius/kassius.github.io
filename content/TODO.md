@@ -3,4 +3,4 @@
 - [ ] organize lost files at `root` / 
 - [x] remove newlines from Dhammapada translations 
 - [ ] consider bringing our vimwiki here
-- [ ] consider removing newlines from English original Dhammapada verses as well
+- [x] ~~consider removing newlines from English original Dhammapada verses as well~~ **done!**
