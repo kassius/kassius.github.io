@@ -1,5 +1,6 @@
 - [ ] projects
 - [x] links
 - [ ] organize lost files at `root` / 
-- [ ] remove newlines from Dhammapada translations 
+- [x] remove newlines from Dhammapada translations 
 - [ ] consider bringing our vimwiki here
+- [ ] consider removing newlines from English original Dhammapada verses as well
