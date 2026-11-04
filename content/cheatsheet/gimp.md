@@ -1,7 +1,5 @@
 ## My custom
 
-
-
 | Action      | Hotkeys                                         |
 |-------------|-------------------------------------------------|
 | Canvas size | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> |
@@ -12,7 +10,6 @@
 <br/>
 
 ## Toolchain
-
 
 | Action           | Hotkeys                         |
 |------------------|---------------------------------|
