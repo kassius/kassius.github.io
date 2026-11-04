@@ -1,0 +1,1 @@
+make it easier for us to edit urwid interface elements, as elements are being cut off when Android is landscape oriented, even while elements have blank space inside them. Let's make use of this when needed, when the console
