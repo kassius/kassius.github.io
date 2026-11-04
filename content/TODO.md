@@ -4,6 +4,6 @@
 - [x] remove newlines from Dhammapada translations 
 - [ ] consider bringing our vimwiki here
 - [x] ~~consider removing newlines from English original Dhammapada verses as well~~ **done!**
-- [ ] add Buddha's name to the original dhammapadas
-- [ ] add Buddha's title (Lord) to the translated dhammapadas
+- [x] add Buddha's name to the original dhammapadas
+- [x] add Buddha's title (Lord) to the translated dhammapadas
 
