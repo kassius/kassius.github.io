@@ -1,12 +1,12 @@
-## info about default inkscape shortcuts
+## > [!info]  info about default inkscape shortcuts
 
-Most default F-key shortcuts used for tools should be changed.  
+> Most default F-key shortcuts used for tools should be changed.  
 
 <br/>
 
 ## External links
 
-[](https://en.wikibooks.org/wiki/A_Guide_to_Inkscape/Appendix_A:_Keyboard_Shortcuts)  
+https://en.wikibooks.org/wiki/A_Guide_to_Inkscape/Appendix_A:_Keyboard_Shortcuts  
 
 <br/>
 
