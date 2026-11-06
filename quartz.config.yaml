@@ -1,6 +1,5 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  #pageTitle: Quartz 5
   pageTitle: 𝚔𝚊𝚜𝚜𝚒𝚞𝚜 𝚢𝚘𝚔𝚎
   pageTitleSuffix: ""
   enableSPA: true
@@ -70,7 +69,6 @@ plugins:
       parseTags: true
       parseArrows: true
       parseBlockReferences: true
-      # enableInHtmlEmbed: false
       enableInHtmlEmbed: true
       enableYouTubeEmbed: true
       enableVideoEmbed: true
@@ -99,7 +97,6 @@ plugins:
     enabled: false
     order: 85
   - source: github:quartz-community/hard-line-breaks
-    # enabled: true
     enabled: false
     order: 90
   - source: github:quartz-community/ox-hugo
@@ -276,11 +273,15 @@ plugins:
   - source: github:ingeniumstudio/quartz-plugin-dhammapada
     enabled: true
     options:
-      endpoint: "https://yoke.kassius.org/dhammapada"
-      className: "custom-dhammapada"
+      endpoint: https://yoke.kassius.org/dhammapada
+      className: custom-dhammapada
     layout:
-      position: beforeBody # Places the verse above your article title
-      priority: 10         # Order within the slot
+      position: beforeBody
+      priority: 10
+  - source: github:hyodoarch/quartz-auto-link-card-enhanced
+    enabled: true
+    options: {}
+    order: 15
 layout:
   groups:
     toolbar:

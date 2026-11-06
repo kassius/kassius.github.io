@@ -193,6 +193,12 @@
       "commit": "92d3872097d793b29b88b0e94cb46be67357c503",
       "installedAt": "2026-11-06T22:02:00.679Z"
     },
+    "quartz-auto-link-card-enhanced": {
+      "source": "github:hyodoarch/quartz-auto-link-card-enhanced",
+      "resolved": "https://github.com/hyodoarch/quartz-auto-link-card-enhanced.git",
+      "commit": "5160936f149f77785cfb9568f1b3574fb11e8147",
+      "installedAt": "2026-11-06T22:22:32.888Z"
+    },
     "quartz-plugin-dhammapada": {
       "source": "github:ingeniumstudio/quartz-plugin-dhammapada",
       "resolved": "https://github.com/ingeniumstudio/quartz-plugin-dhammapada.git",
