@@ -1,5 +1,4 @@
-## > [!info]  info about default inkscape shortcuts
-
+> [!info]  info about default inkscape shortcuts
 > Most default F-key shortcuts used for tools should be changed.  
 
 <br/>
