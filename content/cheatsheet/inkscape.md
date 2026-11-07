@@ -5,7 +5,14 @@
 
 ## External links
 
-https://en.wikibooks.org/wiki/A_Guide_to_Inkscape/Appendix_A:_Keyboard_Shortcuts  
+```cardlink
+url: https://en.wikibooks.org/wiki/A_Guide_to_Inkscape/Appendix_A:_Keyboard_Shortcuts
+title: "A Guide to Inkscape/Appendix A: Keyboard Shortcuts - Wikibooks, open books for an open world"
+author: "Contributors to Wikimedia projects"
+host: en.wikibooks.org
+favicon: https://en.wikibooks.org/static/favicon/wikibooks.ico
+```
+  
 
 <br/>
 
